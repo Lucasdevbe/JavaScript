@@ -1,6 +1,6 @@
 
 
-var nac = "portugual".toLowerCase()
+var nac = "rasil".toLowerCase()
 
 if (nac == "brasil") {
     console.log("voce é brasileiro")

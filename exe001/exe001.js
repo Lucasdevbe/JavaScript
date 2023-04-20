@@ -1,9 +1,9 @@
 
 
 
-var velo = 40
+var velo = 90
 
-window.alert("digite o valor da velocidade")
+
 
 
 if (velo <= 50) {
