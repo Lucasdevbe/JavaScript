@@ -6,7 +6,6 @@ function carregar() {
     imagem = 
 
     msg.innerHTML = `agora sao ${hora} horas`
-    msg.innerHTML = `hoje é dia ${data}`
-    imagem.innerHTML = ``
+    
 
 }
