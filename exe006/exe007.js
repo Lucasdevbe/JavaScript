@@ -5,11 +5,11 @@ function ate10() {
     var numero = Number(document.getElementById('numero').value)
     
     // criando contador para o numero escolhido
-    for (let index = 100; index <= numero; index++) {
+    for (let index = 0; index <= numero; index++) {
 
 
         // estabelecendo condição para criar uma div 
-        if (index % 100 == 0) {
+        if (index % 1000 == 0) {
 
             // cria uma div dento da tag pai msg
             let divn = document.createElement('div')
