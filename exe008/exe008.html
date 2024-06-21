@@ -9,13 +9,16 @@
     
     <label for="inserir"> digite varios numeros</label>
     <input type="number" id="numero">
-    <button name="inserir" id="inserir" onclick="inserir"> Inserir</button>
+    <button name="inserir" id="inserir" onclick="inserir()"> Inserir</button>
 
-    <div id="msg" class="msg"></div>
+    <div id="msg" class="msg">
+        <div id="msg_itens"></div>
+    </div>
+    <div id="array">
 
-    <select name="valores" id="valores">
-        <option value="valores_itens"></option>
-    </select>
+    </div>
+
+    <button id="limpar" onclick="limpar()">Apagar todos</button>
 
 </body>
 
